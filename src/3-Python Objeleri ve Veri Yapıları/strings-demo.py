@@ -20,6 +20,11 @@ result = course[-15:]
 # 5- 'course' ifadesindeki karakterleri tersten yazdırın.
 result = course[::-1]
 
+# s değerini yan yana 5 defa yazar , print fonk ise her 5 karakterde bir yazar
+s="12345" * 5
+print(s[::5])
+
+
 name, surname, age, job = 'Bora','Yılmaz', 32, 'mühendis' 
 
 # 6- Yukarıda verilen değişkenler ile ekrana aşağıdaki ifadeyi yazdırın.
@@ -32,6 +37,10 @@ result = f'Benim adım {name} {surname}, Yaşım {age} ve "mesleğim" {job}.'
 # 7- 'Hello world' ifadesindeki w harfini 'W' ile değiştirin.
 s = 'Hello world'
 s = s[0:6] + 'W'+ s[-4:]
+
+#Diğer Yöntem
+
+s.replace('w','W')
 
 print(s)
 # 8- 'abc' ifadesini yan yana 3 defa yazdırın.
