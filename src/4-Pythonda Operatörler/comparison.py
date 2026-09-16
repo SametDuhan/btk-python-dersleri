@@ -4,6 +4,8 @@
 
 a, b, c, d = 5, 5, 10, 4
 
+x, *y, z = 20,30,40,50,90
+
 password = '1234'
 username = 'sadikturan'
 
