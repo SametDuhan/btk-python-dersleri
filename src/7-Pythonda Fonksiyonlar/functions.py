@@ -46,3 +46,7 @@ print(help(EmekliligeKacYilKaldi))
 list = [1,2,3]
 
 print(help(list.append))
+
+
+def square(sayi):
+    return sayi  **2
